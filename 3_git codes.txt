@@ -1,0 +1,134 @@
+Microsoft Windows [Version 10.0.19045.3086]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\divyamar\Desktop\ecommerce>git clone https://github.com/Divi-amar/ecommerce-frontend.git
+Cloning into 'ecommerce-frontend'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\divyamar\Desktop\ecommerce>cd ecommerce-frontend
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git add notes.txt
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   notes.txt
+
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git commit -m "added notes.txt"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'divyamar@DESKTOP-VLLAEB8.(none)')
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend> git config --global user.email "divyamar2907@gmal.com"
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend> git config --global user.name "divya"
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git commit -m "added notes.txt"
+[main 569842c] added notes.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 notes.txt
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git push
+info: please complete authentication in your browser...
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 293 bytes | 146.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Divi-amar/ecommerce-frontend.git
+   c1c51e4..569842c  main -> main
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 687 bytes | 23.00 KiB/s, done.
+From https://github.com/Divi-amar/ecommerce-frontend
+   569842c..9636807  main       -> origin/main
+Updating 569842c..9636807
+Fast-forward
+ notes.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   notes.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git add .
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   notes.txt
+
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git commit -m 'updated notes.txt by Sai'
+error: pathspec 'by' did not match any file(s) known to git
+error: pathspec 'Sai'' did not match any file(s) known to git
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git commit -m "updated notes.txt by Sai"
+[main 8860d26] updated notes.txt by Sai
+ 1 file changed, 2 insertions(+)
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 348 bytes | 174.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Divi-amar/ecommerce-frontend.git
+   9636807..8860d26  main -> main
+
+C:\Users\divyamar\Desktop\ecommerce\ecommerce-frontend>
+
+##
+git clone url
+
+git status
+>git add filename.extention
+>git add .
+git commit -m "comment"
+git push
+
+git pull
+##
