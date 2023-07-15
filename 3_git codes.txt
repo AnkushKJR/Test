@@ -2,7 +2,7 @@ Microsoft Windows [Version 10.0.19045.3086]
 (c) Microsoft Corporation. All rights reserved.
 
 C:\Users\divyamar\Desktop\ecommerce>git clone https://github.com/Divi-amar/ecommerce-frontend.git
-Cloning into 'ecommerce-frontend'...
+Cloning into 'ecommerce-frontend'......
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
